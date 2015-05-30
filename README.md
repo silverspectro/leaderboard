@@ -1,0 +1,2 @@
+# leaderboard
+Meteor Leaderboard App
