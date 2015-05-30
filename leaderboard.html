@@ -1,0 +1,17 @@
+<head>
+  <title>Leaderboard</title>
+</head>
+<body>
+  <h1>LeaderBoard</h1>
+  <!-- LOGIN TEMPLATE go with accounts-ui -->
+  {{> loginButtons}}
+
+  <!-- PLAYERLIST TEMPLATE -->
+  {{> playerlist}}
+
+  {{#if currentUser}} <!-- provided by the accounts-password package -->
+    <!-- PLAYERFORM TEMPLATE -->
+    {{> playerform}}
+  {{/if}}
+
+</body>

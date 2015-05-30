@@ -1,0 +1,47 @@
+/* CSS declarations go here */
+html {
+  font-family: Lucida, Arial, sans-serif;
+}
+
+ul {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.6em;
+  color: #444a52;
+  padding: 0.5em 0.5em;
+  border-top: 1px solid #8fa9b4;
+  list-style: none;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: rgb(106, 175, 219);
+}
+
+ul li.selected {
+  background-color: rgb(81, 145, 186);
+  color: #fff;
+}
+
+ul li:first-child {
+  border-top: none;
+}
+
+button {
+  display: inline-block;
+  border:none;
+  background-color: rgb(71, 187, 100);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.7em;
+  margin: 1.2em 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(48, 144, 72);
+}

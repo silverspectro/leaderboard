@@ -1,0 +1,10 @@
+<template name="playerform">
+    <form class="addPlayer">
+      {{#if errorForm}}
+        <h1>{{errorForm}}</h1>
+      {{/if}}
+      <input type="text" name="playerName" placeholder="Player Name">
+      <input type="submit" value="Add">
+    </form>
+
+</template>
